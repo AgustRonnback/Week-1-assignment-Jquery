@@ -1,0 +1,82 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+
+.input-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  background-color: lightskyblue;
+}
+
+.output-wrapper {
+  height: 450px;
+  background-color: khaki;
+  display: grid;
+  grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+
+
+li {
+  list-style-type: none;
+  padding-top: 10px;
+  border: 1px solid;
+}
+
+
+.btn {
+    height: 2rem;
+    width: 5rem;
+    background-color: grey;
+}
+
+
+
+
+
+
+.inputBlue {
+  background-color: blue;
+}
+
+.inputGreen {
+  background-color: green;
+}
+
+.inputTeal {
+  background-color: teal;
+}
+
+.inputPink {
+  background-color: pink;
+}
+
+.inputYellow {
+  background-color: yellow;
+}
+.inputGray {
+  background-color:gray;
+}
+
+.inputPurple {
+  background-color:purple;
+}
+
+.inputOrange {
+  background-color:orange;
+}
+
+.inputAzure {
+  background-color:azure;
+}
+.inputRed {
+  background-color:red;
+}
